@@ -1,0 +1,16 @@
+h1{
+    border: 2px solid blue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+h2 {
+  border: 2px solid grey;
+}
+
+ul, ol {
+  border: 2px solid green;
+  padding-left: 10px;
+  padding-right: 10px;
+}
