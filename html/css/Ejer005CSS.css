@@ -1,0 +1,19 @@
+.boton {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: black; 
+  color: white;            
+  text-decoration: none;
+  border-radius: 3px;      
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #bfbfbf; 
+}
+
+.boton:hover {
+  background-color: #cfcfcf;
+}
+
+.boton:active {
+  background-color: #bfbfbf;
+}
