@@ -1,0 +1,15 @@
+.bloque {
+  width: 300px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block; /* ya es por defecto, pero lo aclaramos */
+}
+
+.linea {
+  width: 300px;
+  border: 1px dashed gray;
+  padding: 10px;
+  margin-right: 20px;
+  display: inline-block; /* clave para que estén en línea */
+}

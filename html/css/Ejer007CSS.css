@@ -1,0 +1,24 @@
+.menu {
+  list-style: none; /* saca los puntitos */
+  padding: 10px;
+  background-color: #888; /* fondo gris */
+  border: 1px solid black;
+}
+
+/* Cada item en línea */
+.menu li {
+  display: inline; /* los pone uno al lado del otro */
+  margin-right: 15px;
+}
+
+/* Links */
+.menu a {
+  text-decoration: none;   /* sin subrayado */
+  color: blue;
+  font-size: 14px;
+}
+
+/* Hover */
+.menu a:hover {
+  text-decoration: underline;
+}
