@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1> Formulario de registro </h1>
-    <form>
+    <form method="post" action="../php/Ejer009.php">
         <p>
         Nombre:
         <input name="Nombre" size=40 maxlength=100>
@@ -35,11 +35,11 @@
         </p>
 
         <p> 
-            <input type="checkbox"> Deseo recibir informacion sobre novedades y ofertas
+            <input name="Informacion" type="checkbox" value="Si"> Deseo recibir informacion sobre novedades y ofertas
         </p>
 
         <p> 
-            <input type="checkbox"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre la proteccion de <br> datos </br> 
+            <input name="Condiciones" type="checkbox" value="Si"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre la proteccion de <br> datos </br> 
         </p>
 
         <p>
