@@ -1,11 +1,15 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Lista de Productos</title>
-</head>
-<body>
-    <h1>Catálogo de Productos</h1>
-    <p>Esta es la lista de productos renderizada desde una plantilla Twig.</p>
-</body>
-</html>
+{% extends 'base.html.twig' %}
+
+{% block title %}Lista de productos{% endblock %}
+
+{% block body %}
+    <div class="header">
+        <h1 class="title">Carrito de Compras</h1>
+        <div>
+            <button class="btn-ligth">Ver Orden</button>
+            <button class="btn-ligth">Salir</button>
+        </div>
+    </div>
+
+    <h2 style="padding: 20px;">Lista de productos</h2>
+{% endblock %}
