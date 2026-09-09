@@ -11,5 +11,22 @@
         </div>
     </div>
 
-    <h2 style="padding: 20px;">Lista de productos</h2>
+    <div class="container">
+        <h2>Lista de productos</h2>
+        
+        <div class="product-grid">
+            {# 2.a. Recorremos el array de productos con la estructura for de Twig #}
+            {% for producto in productos %}
+                <div class="product-card">
+                    <img src="{{ asset(producto.imagen) }}" alt="{{ producto.nombre }}">
+                    <h3>{{ producto.nombre }}</h3>
+                    <p>{{ producto.descripcion }}</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                        <button class="btn-details">Ver detalles</button>
+                        <span style="font-weight: bold; font-size: 0.9rem;">Precio: ${{ producto.precio }}</span>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
 {% endblock %}
