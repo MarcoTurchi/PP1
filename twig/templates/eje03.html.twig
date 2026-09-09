@@ -1,0 +1,11 @@
+<ul>
+    {% for indice, pais in paises %}
+        <li>
+            <strong>Índice: {{ indice }}</strong><br>
+            País: {{ pais.nombre }}<br>
+            Lengua: {{ pais.lengua }}<br>
+            Moneda: {{ pais.moneda }}
+        </li>
+        <br>
+    {% endfor %}
+</ul>
